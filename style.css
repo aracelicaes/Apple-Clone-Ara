@@ -13,6 +13,7 @@ body {
     visibility: hidden;
     position: absolute;
 }
+
 /* TOP NAV MENU */
 #topNav {
     background-image: url("images/navBarBackground.png");
@@ -160,7 +161,7 @@ article header {
 
 #everyoneHas {
     height: 82px;
-    background-image: url("images/everyoneHasSomethingLarge.png"); 
+    background-image: url("images/everyoneHasSomethingLarge.png");
 }
 
 #watchYourVerse {
