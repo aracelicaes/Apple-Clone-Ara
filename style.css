@@ -1,62 +1,62 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hidden {
-    visibility: hidden;
-    position: absolute;
+  visibility: hidden;
+  position: absolute;
 }
 
 /* TOP NAV MENU */
 #topNav {
-    background-image: url("images/navBarBackground.png");
-    width: 980px;
-    height: 36px;
-    border-radius: 8px;
-    position: relative;
-    top: 70px;
-    margin: auto;
-    z-index: 1;
+  background-image: url("images/navBarBackground.png");
+  width: 980px;
+  height: 36px;
+  border-radius: 8px;
+  position: relative;
+  top: 70px;
+  margin: auto;
+  z-index: 1;
 }
 
 #topNavLinks {
-    background-image: url("images/navFilter.png");
-    width: 980px;
-    height: 38px;
-    background-position-y: 50%;
+  background-image: url("images/navFilter.png");
+  width: 980px;
+  height: 38px;
+  background-position-y: 50%;
 }
 
 #topNavLinks {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #topNavLinks li {
-    list-style-type: none;
-    display: inline-flex;
-    border-right: 1px solid gray;
+  list-style-type: none;
+  display: inline-flex;
+  border-right: 1px solid gray;
 }
 
 #topNavLinks > li:hover {
-    background-color: rgba(51, 51, 51, 0.678);
-    cursor: pointer;
+  background-color: rgba(51, 51, 51, 0.678);
+  cursor: pointer;
 }
 
 #apple:hover {
-    border-bottom-left-radius: 8px;
-    border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 #search:hover {
-    border-bottom-right-radius: 8px;
-    border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 /* INSERT NAV MENU IMGS */
@@ -67,193 +67,193 @@ body {
 #iPad, 
 #iTunes, 
 #support {
-    width: 101px;
-    height: 36px;
-    background-image: url("images/navBarMenuIcons.png");
-    background-position-x: 50%;
+  width: 101px;
+  height: 36px;
+  background-image: url("images/navBarMenuIcons.png");
+  background-position-x: 50%;
 }
 
 #apple {
-    width: 100px;
-    height: 36px;
-    background-image: url("images/navBarMenuIcons.png");
-    background-position-x: 45%;
-    background-position-y: -1%;
-    border-bottom-left-radius: 8px;
-    border-top-left-radius: 8px;
+  width: 100px;
+  height: 36px;
+  background-image: url("images/navBarMenuIcons.png");
+  background-position-x: 45%;
+  background-position-y: -1%;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 #store {
-    background-position-y: 13%;
+  background-position-y: 13%;
 }
 
 #mac {
-    background-position-y: 28%;
+  background-position-y: 28%;
 }
 
 #iPod {
-    background-position-y: 42%;
+  background-position-y: 42%;
 }
 
 #iPhone {
-    background-position-y: 57%;
+  background-position-y: 57%;
 }
 
 #iPad {
-    background-position-y: 72%;
+  background-position-y: 72%;
 }
 
 #iTunes {
-    background-position-y: 86.5%;
+  background-position-y: 86.5%;
 }
 
 #support {
-    background-position-y: 101%;
+  background-position-y: 101%;
 }
 
 
 #search {
-    width: 133px;
-    height: 36px;
-    background-image: url("images/searchArea.png");
-    background-position-y: 28%;
-    background-position-x: 50%;
-    border-bottom-right-radius: 8px;
-    border-top-right-radius: 8px;
+  width: 133px;
+  height: 36px;
+  background-image: url("images/searchArea.png");
+  background-position-y: 28%;
+  background-position-x: 50%;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 /* BANNER IMAGE */
 article {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: -45px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -45px;
 }
 
 #banner {
-    width: 1440px;
-    height: 620px;
-    background-image: url("images/mountainHikers.jpg");
-    background-position-y: bottom;
-    position: relative;
-    top: 0;
-    z-index: 0;
+  width: 1440px;
+  height: 620px;
+  background-image: url("images/mountainHikers.jpg");
+  background-position-y: bottom;
+  position: relative;
+  top: 0;
+  z-index: 0;
 }
 
 #header {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 /* BANNER TEXT IMAGES */
 article header {
-    width: 980px;
-    display: flex;
-    flex-direction: column;
-    margin: 100px auto auto auto;
+  width: 980px;
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto auto auto;
 }
 
 #verseBe {
-    height: 104px;
-    background-image: url("images/whatWillYourVerseBeLarge.png");
+  height: 104px;
+  background-image: url("images/whatWillYourVerseBeLarge.png");
 }
 
 #everyoneHas {
-    height: 82px;
-    background-image: url("images/everyoneHasSomethingLarge.png");
+  height: 82px;
+  background-image: url("images/everyoneHasSomethingLarge.png");
 }
 
 #watchYourVerse {
-    z-index: 1;
-    height: 34px;
-    background-image: url("images/watchYourVerseUnderline.png");
+  z-index: 1;
+  height: 34px;
+  background-image: url("images/watchYourVerseUnderline.png");
 }
 
 
 #watchYourVerse:hover {
-    background-position-y: 95px;
-    cursor: pointer;
+  background-position-y: 95px;
+  cursor: pointer;
 }
 
 /* ASIDE SECTION */
 aside {
-    width: 1440px;
-    margin: -60px auto auto auto;
+  width: 1440px;
+  margin: -60px auto auto auto;
 }
 #asideLinks {
-    display: inline-flex;
-    padding: 0;
+  display: inline-flex;
+  padding: 0;
 }
 
 #asideLinks li {
-    border: 1px solid white;
-    list-style-type: none;
-    width: 25%;
+  border: 1px solid white;
+  list-style-type: none;
+  width: 25%;
 }
 
 #asideLinks img {
-    width: 100%;
+  width: 100%;
 }
 
 /* FOOTER INFO */
 
 footer {
-    width: 1000px;
-    height: 54px;
-    color: #6e6e6e;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 0.65rem;
-    font-weight: 600;
-    margin: auto;
+  width: 1000px;
+  height: 54px;
+  color: #6e6e6e;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  margin: auto;
 }
 
 #wrappingFooter, 
 #rightBottomLinks, 
 #theVeryBottom, 
 #crLinks {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 #wrappingFooter {
-    width: 100%;
+  width: 100%;
 }
 
 #leftBottomText > a {
-    color: #08c;
-    text-decoration: none;
+  color: #08c;
+  text-decoration: none;
 }
 
 #rightBottomLinks li {
-    list-style-type: none;
-    margin-right: 3px;
-    margin-left: 3px;
-    padding-left: 3px;
-    padding-right: 5px;
+  list-style-type: none;
+  margin-right: 3px;
+  margin-left: 3px;
+  padding-left: 3px;
+  padding-right: 5px;
 }
 
 #rightBottomLinks li:not(.noBorder) {
-    border-right: 1px solid #6e6e6e;
+  border-right: 1px solid #6e6e6e;
 }
 
 #rightBottomLinks li a {
-    color: #08c;
-    text-decoration: none;
+  color: #08c;
+  text-decoration: none;
 }
 
 #crLinks li {
-    list-style-type: none;
-    margin-right: 3px;
-    margin-left: 3px;
-    padding-left: 3px;
-    padding-right: 5px;
+  list-style-type: none;
+  margin-right: 3px;
+  margin-left: 3px;
+  padding-left: 3px;
+  padding-right: 5px;
 }
 
 #crLinks li:not(.noBorder) {
-    border-right: 1px solid #6e6e6e;
+  border-right: 1px solid #6e6e6e;
 }
 
 #crLinks li a {
-    color: #08c;
-    text-decoration: none;
+  color: #08c;
+  text-decoration: none;
 }
