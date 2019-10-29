@@ -26,14 +26,33 @@ body {
   z-index: 1;
 }
 
+#asideLinks li {
+  border: 1px solid white;
+  list-style-type: none;
+  width: 25%;
+}
+
+#rightBottomLinks li {
+  list-style-type: none;
+  margin-right: 3px;
+  margin-left: 3px;
+  padding-left: 3px;
+  padding-right: 5px;
+}
+
+#crLinks li {
+  list-style-type: none;
+  margin-right: 3px;
+  margin-left: 3px;
+  padding-left: 3px;
+  padding-right: 5px;
+}
+
 #topNavLinks {
   background-image: url("images/navFilter.png");
   width: 980px;
   height: 38px;
   background-position-y: 50%;
-}
-
-#topNavLinks {
   margin: 0;
   padding: 0;
 }
@@ -185,12 +204,6 @@ aside {
   padding: 0;
 }
 
-#asideLinks li {
-  border: 1px solid white;
-  list-style-type: none;
-  width: 25%;
-}
-
 #asideLinks img {
   width: 100%;
 }
@@ -223,14 +236,6 @@ footer {
   text-decoration: none;
 }
 
-#rightBottomLinks li {
-  list-style-type: none;
-  margin-right: 3px;
-  margin-left: 3px;
-  padding-left: 3px;
-  padding-right: 5px;
-}
-
 #rightBottomLinks li:not(.noBorder) {
   border-right: 1px solid #6e6e6e;
 }
@@ -238,14 +243,6 @@ footer {
 #rightBottomLinks li a {
   color: #08c;
   text-decoration: none;
-}
-
-#crLinks li {
-  list-style-type: none;
-  margin-right: 3px;
-  margin-left: 3px;
-  padding-left: 3px;
-  padding-right: 5px;
 }
 
 #crLinks li:not(.noBorder) {
