@@ -49,16 +49,6 @@ body {
   cursor: pointer;
 }
 
-#apple:hover {
-  border-bottom-left-radius: 8px;
-  border-top-left-radius: 8px;
-}
-
-#search:hover {
-  border-bottom-right-radius: 8px;
-  border-top-right-radius: 8px;
-}
-
 /* INSERT NAV MENU IMGS */
 #store,
 #mac,
@@ -79,6 +69,11 @@ body {
   background-image: url("images/navBarMenuIcons.png");
   background-position-x: 45%;
   background-position-y: -1%;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+#apple:hover {
   border-bottom-left-radius: 8px;
   border-top-left-radius: 8px;
 }
@@ -117,6 +112,11 @@ body {
   background-image: url("images/searchArea.png");
   background-position-y: 28%;
   background-position-x: 50%;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#search:hover {
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -179,6 +179,7 @@ aside {
   width: 1440px;
   margin: -60px auto auto auto;
 }
+
 #asideLinks {
   display: inline-flex;
   padding: 0;
@@ -206,9 +207,9 @@ footer {
   margin: auto;
 }
 
-#wrappingFooter, 
-#rightBottomLinks, 
-#theVeryBottom, 
+#wrappingFooter,
+#rightBottomLinks,
+#theVeryBottom,
 #crLinks {
   display: inline-flex;
 }
