@@ -60,12 +60,12 @@ body {
 }
 
 /* INSERT NAV MENU IMGS */
-#store, 
-#mac, 
-#iPod, 
-#iPhone, 
-#iPad, 
-#iTunes, 
+#store,
+#mac,
+#iPod,
+#iPhone,
+#iPad,
+#iTunes,
 #support {
   width: 101px;
   height: 36px;
@@ -110,7 +110,6 @@ body {
 #support {
   background-position-y: 101%;
 }
-
 
 #search {
   width: 133px;
@@ -169,7 +168,6 @@ article header {
   height: 34px;
   background-image: url("images/watchYourVerseUnderline.png");
 }
-
 
 #watchYourVerse:hover {
   background-position-y: 95px;
