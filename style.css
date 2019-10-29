@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    visibility: hidden;
+}
+/* TOP NAV MENU */
+#topNav {
+    background-position-y: 5%;
+    background-image: url("images/navBarBackground.png");
+    width: 980px;
+    height: 36px;
+    border-radius: 8px;
+    position: relative;
+    top: 200px;
+    z-index: 0;
+    margin: auto;
+}
+
+#topNavLinks {
+    background-image: url("images/navFilter.png");
+    width: 980px;
+    height: 38px;
+    background-position-y: 50%;
+}
+
+#topNavLinks {
+    margin: 0;
+    padding: 0;
+}
+
+#topNavLinks li {
+    list-style-type: none;
+    display: inline-flex;
+    width: 105px;
+    height: 36px;
+    border: 1px solid black;
+}
+
+#topNavLinks > li:hover {
+    background-color: rgba(51, 51, 51, 0.678);
+    cursor: pointer;
+}
+
+#apple:hover {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+#search:hover {
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* INSERT NAV MENU IMGS */
+#apple, 
+#store, 
+#mac, 
+#iPod, 
+#iPhone, 
+#iPad, 
+#iTunes, 
+#support {
+    background-image: url("images/navBarMenuIcons.png");
+    background-position-x: 50%;
+}
+
+#apple {
+    background-position-x: 45%;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+#store {
+    background-position-y: 14%;
+}
+
+#mac {
+    background-position-y: 28%;
+}
+
+#iPod {
+    background-position-y: 42%;
+}
+
+#iPhone {
+    background-position-y: 57%;
+}
+
+#iPad {
+    background-position-y: 72%;
+}
+
+#iTunes {
+    background-position-y: 86.5%;
+}
+
+#support {
+    background-position-y: 101%;
+}
+
+
+#search {
+    background-image: url("images/search.JPG");
+    background-position-y: 69%;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+/* BANNER IMAGE AND INSIDE IMAGES TEXT */
+#banner {
+    width: 1440px;
+    height: 538px;
+    background-image: url("images/mountainHikers.jpg");
+    background-position-y: bottom;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
