@@ -1,7 +1,4 @@
 # Apple-Clone-Ara
-
-
-# Apple-Clone-Ara
 ## Table Of Contents
 
 * [About the project](#about-the-project)
@@ -12,7 +9,7 @@
 
 ## About the project
 
-![Screenshot Image](images/screenshotNYTClone.PNG)******************CHANGE! CHANGE! CHANGE!!
+![Screenshot Image](images/screenshotSoloProjectAra.jpg)
 
 This project was built by Araceli Camarillo build for the 4th and SOLO project in the Microverse program. It is built with HTML and CSS using solo programming. This page is a clone for an old version of Apple landing HOME page for Microverse solo project. The original version can be found at: https://web.archive.org/web/20140301004610/http://www.apple.com/
 
