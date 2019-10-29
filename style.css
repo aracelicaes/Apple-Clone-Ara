@@ -2,20 +2,27 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .hidden {
     visibility: hidden;
+    position: absolute;
 }
 /* TOP NAV MENU */
 #topNav {
-    background-position-y: 5%;
     background-image: url("images/navBarBackground.png");
     width: 980px;
     height: 36px;
     border-radius: 8px;
     position: relative;
-    top: 200px;
-    z-index: 0;
+    top: 70px;
     margin: auto;
+    z-index: 1;
 }
 
 #topNavLinks {
@@ -33,9 +40,7 @@
 #topNavLinks li {
     list-style-type: none;
     display: inline-flex;
-    width: 105px;
-    height: 36px;
-    border: 1px solid black;
+    border-right: 1px solid gray;
 }
 
 #topNavLinks > li:hover {
@@ -54,7 +59,6 @@
 }
 
 /* INSERT NAV MENU IMGS */
-#apple, 
 #store, 
 #mac, 
 #iPod, 
@@ -62,18 +66,24 @@
 #iPad, 
 #iTunes, 
 #support {
+    width: 101px;
+    height: 36px;
     background-image: url("images/navBarMenuIcons.png");
     background-position-x: 50%;
 }
 
 #apple {
+    width: 100px;
+    height: 36px;
+    background-image: url("images/navBarMenuIcons.png");
     background-position-x: 45%;
+    background-position-y: -1%;
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
 }
 
 #store {
-    background-position-y: 14%;
+    background-position-y: 13%;
 }
 
 #mac {
@@ -102,25 +112,147 @@
 
 
 #search {
-    background-image: url("images/search.JPG");
-    background-position-y: 69%;
+    width: 133px;
+    height: 36px;
+    background-image: url("images/searchArea.png");
+    background-position-y: 28%;
+    background-position-x: 50%;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
 }
 
+/* BANNER IMAGE */
+article {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -45px;
+}
 
-/* BANNER IMAGE AND INSIDE IMAGES TEXT */
 #banner {
     width: 1440px;
-    height: 538px;
+    height: 620px;
     background-image: url("images/mountainHikers.jpg");
     background-position-y: bottom;
-    position: absolute;
-    z-index: -1;
+    position: relative;
     top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    z-index: 0;
+}
+
+#header {
+    width: 100%;
+    margin: auto;
+}
+
+/* BANNER TEXT IMAGES */
+article header {
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto auto auto;
+}
+
+#verseBe {
+    height: 104px;
+    background-image: url("images/whatWillYourVerseBeLarge.png");
+}
+
+#everyoneHas {
+    height: 82px;
+    background-image: url("images/everyoneHasSomethingLarge.png"); 
+}
+
+#watchYourVerse {
+    z-index: 1;
+    height: 34px;
+    background-image: url("images/watchYourVerseUnderline.png");
 }
 
 
+#watchYourVerse:hover {
+    background-position-y: 95px;
+    cursor: pointer;
+}
+
+/* ASIDE SECTION */
+aside {
+    width: 1440px;
+    margin: -60px auto auto auto;
+}
+#asideLinks {
+    display: inline-flex;
+    padding: 0;
+}
+
+#asideLinks li {
+    border: 1px solid white;
+    list-style-type: none;
+    width: 25%;
+}
+
+#asideLinks img {
+    width: 100%;
+}
+
+/* FOOTER INFO */
+
+footer {
+    width: 1000px;
+    height: 54px;
+    color: #6e6e6e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.65rem;
+    font-weight: 600;
+    margin: auto;
+}
+
+#wrappingFooter, 
+#rightBottomLinks, 
+#theVeryBottom, 
+#crLinks {
+    display: inline-flex;
+}
+
+#wrappingFooter {
+    width: 100%;
+}
+
+#leftBottomText > a {
+    color: #08c;
+    text-decoration: none;
+}
+
+#rightBottomLinks li {
+    list-style-type: none;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+#rightBottomLinks li:not(.noBorder) {
+    border-right: 1px solid #6e6e6e;
+}
+
+#rightBottomLinks li a {
+    color: #08c;
+    text-decoration: none;
+}
+
+#crLinks li {
+    list-style-type: none;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+#crLinks li:not(.noBorder) {
+    border-right: 1px solid #6e6e6e;
+}
+
+#crLinks li a {
+    color: #08c;
+    text-decoration: none;
+}
