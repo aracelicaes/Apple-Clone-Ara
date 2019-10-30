@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
+  margin-bottom: -236px;
+}
+
+.hidden {
+  visibility: hidden;
+  position: absolute;
+}
+
+/* TOP NAV MENU */
+.topNav {
+  background-image: linear-gradient(to bottom, #626262 50%, #797979 50%);
+  width: 985px;
+  height: 37px;
+  border-radius: 8px;
+  border: 1px solid #5e5e5e;
+  position: relative;
+  top: 42px;
+  margin: auto;
+  z-index: 5;
+}
+
+#asideLinks li {
+  border: 1px solid white;
+  list-style-type: none;
+  width: 25%;
+}
+
+#rightBottomLinks li {
+  list-style-type: none;
+  margin-right: 3px;
+  margin-left: 3px;
+  padding-left: 3px;
+  padding-right: 5px;
+}
+
+#crLinks li {
+  list-style-type: none;
+  margin-right: 3px;
+  margin-left: 3px;
+  padding-left: 3px;
+  padding-right: 5px;
+}
+
+#topNavLinks {
+  background-image: url("images/navFilter.png");
+  width: 980px;
+  height: 36px;
+  background-position-y: 50%;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+#topNavLinks a {
+  display: inline-flex;
+  border-right: 2px solid gray;
+  margin: 0 -1px 0 -3px;
+  padding: 0;
+}
+
+#leftBottomText > a {
+  color: #08c;
+  text-decoration: none;
+}
+
+#rightBottomLinks li:not(.noBorder) {
+  border-right: 1px solid #6e6e6e;
+}
+
+#rightBottomLinks li a {
+  color: #08c;
+  text-decoration: none;
+}
+
+#crLinks li:not(.noBorder) {
+  border-right: 1px solid #6e6e6e;
+}
+
+#crLinks li a {
+  color: #08c;
+  text-decoration: none;
+}
+
+#topNavLinks > a:hover {
+  background-color: rgba(51, 51, 51, 0.521);
+}
+
+/* INSERT NAV MENU IMGS */
+.store,
+.mac,
+.iPod,
+.iPhone,
+.iPad,
+.iTunes,
+.support {
+  width: 100px;
+  height: 34px;
+  background-image: url("images/navBarMenuIcons.png");
+  background-position-x: 50%;
+}
+
+.apple {
+  width: 100px;
+  height: 34px;
+  margin-left: 0;
+  background-image: url("images/navBarMenuIcons.png");
+  background-position-x: 42%;
+  background-position-y: -1%;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+#apple:hover {
+  margin-left: 0;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.store {
+  background-position-y: 14%;
+}
+
+.mac {
+  background-position-y: 28.5%;
+}
+
+.iPod {
+  background-position-y: 43%;
+}
+
+.iPhone {
+  background-position-y: 58%;
+}
+
+.iPad {
+  background-position-y: 72%;
+}
+
+.iTunes {
+  background-position-y: 87%;
+}
+
+.support {
+  background-position-y: 101%;
+}
+
+#search {
+  width: 120px;
+  height: 34px;
+}
+
+#searchInput {
+  position: absolute;
+  top: 6px;
+  left: 847px;
+  width: 105px;
+  height: 20px;
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+  border: none;
+}
+
+#search img {
+  position: absolute;
+  top: 9px;
+  left: 850px;
+}
+
+#searchInput:focus {
+  width: 115px;
+  background: white;
+}
+
+/* BANNER IMAGE */
+section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: -145px;
+}
+
+.bannerImage {
+  width: 1440px;
+  height: 620px;
+  background-image: url("images/mountainHikers.jpg");
+  background-position-y: bottom;
+  position: relative;
+  top: 0;
+  z-index: -5;
+}
+
+/* BANNER TEXT IMAGES */
+section header {
+  width: 1440px;
+  height: 838px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+
+#verseBe,
+#everyoneHas,
+#watchYourVerse {
+  margin: auto;
+  position: relative;
+}
+
+#verseBe {
+  width: 980px;
+  height: 104px;
+  background-image: url("images/whatWillYourVerseBeLarge.png");
+  top: -450px;
+}
+
+#everyoneHas {
+  width: 980px;
+  height: 82px;
+  background-image: url("images/everyoneHasSomethingLarge.png");
+  top: -450px;
+}
+
+#watchYourVerse {
+  width: 980px;
+  height: 34px;
+  background-image: url("images/watchYourVerseUnderline.png");
+  top: -430px;
+}
+
+#watchYourVerse:hover {
+  background-position-y: 96px;
+  cursor: pointer;
+}
+
+/* ASIDE SECTION */
+aside {
+  width: 1440px;
+  margin: -280px auto auto auto;
+}
+
+#asideLinks {
+  display: inline-flex;
+  padding: 0;
+}
+
+#asideLinks img {
+  width: 100%;
+  height: 100%;
+}
+
+/* FOOTER INFO */
+
+footer {
+  width: 1000px;
+  height: 54px;
+  color: #6e6e6e;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  margin: 10px auto auto auto;
+}
+
+.wrappingFooter,
+#rightBottomLinks,
+#theVeryBottom,
+#crLinks {
+  display: inline-flex;
+}
+
+.wrappingFooter {
+  width: 100%;
+}
